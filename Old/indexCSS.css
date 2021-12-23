@@ -1,0 +1,163 @@
+h1 {
+	text-align: center;
+	font-size: 52px;
+	background: rgba(255, 255, 255, 0.6);
+	/*border-radius: 8px;*/
+	padding: 8px;
+}
+
+.doc {
+    background-image:url("wp7987303-christmas-wood-decor-wallpapers.jpg");
+	background-color:#585858; /* The color used if image is not available */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: 100%; /* Resize the background image to cover the entire page */
+	color: black;
+	font-family: Georgia, serif;
+}
+
+.navbar {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	background-color: #333;
+  	overflow: hidden;
+  	border-radius: 8px;
+}
+
+.navlist {
+  	float: left;
+}
+
+.navtext {
+	display: block;
+	color: white;
+	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 19px;
+}
+
+.navtextus {
+	display: block;
+	color: white;
+	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 19px;
+    background-image: linear-gradient(to bottom right, red , yellow);
+    /*gradients at https://www.w3schools.com/css/css3_gradients.asp*/
+}
+
+.navtextbee {
+	display: block;
+	color: white;
+	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 19px;
+}
+
+.navtext:hover {
+	background-color: #111;
+}
+
+.navtextbee:hover {
+	background-color: #111;
+}
+
+.active {
+	background-image: linear-gradient(to bottom right, #bc4f5e , #B3000C);
+}
+
+.activebee {
+	background-image: linear-gradient(to bottom right, #ffd22b , #ff8503);
+}
+
+.activedeals {
+    background-image: linear-gradient(to bottom right, #ffd22b , #228b22);
+}
+
+.activecharity {
+    background-image: linear-gradient(to bottom right, #2A868A , #003C5F);
+    
+}
+
+.activepricing {
+    background-image: linear-gradient(to bottom right, #2A868A , #4B365F);
+}
+
+#productimg {
+	/*display: block;
+	margin-left: auto;
+  	margin-right: auto;*/
+
+  	float: right;
+  	width: 35%;
+  	margin-right: 12px;
+  	border-radius: 8px;
+}
+
+#preorderimg {
+	float: right;
+  	width: 33%;
+  	margin-right: 0px;
+  	border-radius: 8px;
+}
+
+#treeimg {
+  /*display: block;
+  margin-left: auto;
+    margin-right: auto;*/
+
+    float: right;
+    width: 33%;
+    margin-right: 12px;
+    border-radius: 8px;
+}
+
+#wckimg {
+	float: right;
+  	width: 27%;
+  	margin-right: 50px;
+}
+
+.info {
+	font-size: 22px;
+	max-width: 60%;
+	margin-left: 12px;
+	margin-top: 40px;
+    color: black;
+    background: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.contactinfo {
+	font-size: 22px;
+	max-width: 40%;
+	margin-left: 12px;
+    color: white;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.charitytext {
+	font-size: 22px;
+	max-width: 60%;
+	margin-left: 12px;
+	margin-top: 40px;
+    color: black;
+    background: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.bottomtext {
+	position: fixed;
+  	bottom: 0;
+  	right: 0;
+  	width: 525px;
+  	margin-right: 4px;
+  	border: 3px;
+}
