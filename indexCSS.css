@@ -9,6 +9,8 @@ h1 {
 .doc {
     background-image:url("background.jpg");
 	background-color:#585858; /* The color used if image is not available */
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
     background-repeat: repeat; /* Do not repeat the image */
     background-size: 100%; /* Resize the background image to cover the entire page */
 	color: black;
